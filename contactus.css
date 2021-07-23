@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Raleway-regular";
+    src: url(fontsp//Raleway-Regular.ttf)
+}
+@font-face {
+    font-family: "Raleway-medium";
+    src: url(fontsp//Raleway-Medium.ttf)
+}
+@font-face {
+    font-family: "Raleway-bold";
+    src: url(fontsp//Raleway-Bold.ttf)
+}
+@font-face {
+    font-family: "Raleway-Semibold";
+    src: url(fontsp//Raleway-Semibold.ttf)
+}
+@font-face {
+    font-family: "Raleway-Black";
+    src: url(fontsp//Raleway-Black.ttf)
+}
+@font-face {
+    font-family: "Raleway-extrabold";
+    src: url(fontsp/Raleway-ExtraBold.ttf)
+}
+@font-face {
+    font-family: "Raleway-Italic";
+    src: url(fontsp//Raleway-Italic.ttf)
+}
+@font-face {
+    font-family: "Raleway-mediumitalic";
+    src: url(fontsp//Raleway-MediumItalic.ttf)
+}
+@font-face {
+    font-family: "Raleway-bolditalic";
+    src: url(fontsp//Raleway-BoldItalic.ttf)
+}
+@font-face {
+    font-family: "Raleway-semibolditalic";
+    src: url(fontsp//Raleway-SemiBoldItalic.ttf)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(235, 164, 33);
+        font-size: 14px;
+}
+.container{
+   
+   
+    width: 80%;
+    margin: 50px auto;
+    
+}
+.contact-box{
+    background: white;
+    display: flex;
+    font-family: "Raleway-Bold";
+    height: 70vh;
+}
+.contact-box .contact-left{
+    flex-basis: 50%;
+    padding: 40px 60px;
+    font-family:"Raleway-Bold";
+    box-sizing: border-box;
+    border: 5px solid black;
+     
+}
+.contact-box .contact-right{
+    flex-basis: 50%;
+    border: 5px solid black;
+    padding: 40px;
+    background: brown;
+    color: rgb(255, 255, 255);
+    font-family:"Raleway-Bold";
+    font-size: large;
+    font-weight: bold;
+}
+h1{
+    margin-bottom: 10px;
+    font-family: "Raleway-bold";
+}
+.container p{
+    margin-bottom: 40px;
+    font-family: "Raleway-semibolditalic";
+}
+.contact-left h3{
+    color: #d48c06;
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+tr td:first-child{ /* space from first entry*/
+    padding-right: 35px;
+}
+tr td{
+    padding-top: 20px;
+}
+table{
+    font-family: "Raleway-bolditalic";
+
+}
+li{
+    padding: 10px;
+}
+
+
+ 
+
+

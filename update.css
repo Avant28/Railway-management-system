@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Raleway-regular";
+    src: url(fonts/Raleway-Regular.ttf)
+}
+@font-face {
+    font-family: "Raleway-medium";
+    src: url(fonts/Raleway-Medium.ttf)
+}
+@font-face {
+    font-family: "Raleway-bold";
+    src: url(fonts/Raleway-Bold.ttf)
+}
+@font-face {
+    font-family: "Raleway-Semibold";
+    src: url(fonts/Raleway-Semibold.ttf)
+}
+@font-face {
+    font-family: "Raleway-Black";
+    src: url(fonts/Raleway-Black.ttf)
+}
+@font-face {
+    font-family: "Raleway-extrabold";
+    src: url(fonts/Raleway-ExtraBold.ttf)
+}
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1572041341933-57caa3b8f6d5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3dpc3MlMjB0cmFpbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80') ;
+          
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+}
+
+form {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    
+    margin: 45px 200px;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    font-family: "Raleway-Black";
+}
+
+.head{
+    font-family: "Raleway-extrabold";
+    font-size: 350%;
+    color: white;
+    text-shadow: -1px 1px 0 rgb(0 0 0), 1px 1px 0 rgb(0 0 0), 1px -1px 0 rgb(0 0 0), -1px -1px 0 rgb(0 0 0);
+    margin-top: 100px;
+}

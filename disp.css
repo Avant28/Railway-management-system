@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Raleway-regular";
+    src: url(fontsp//Raleway-Regular.ttf)
+}
+@font-face {
+    font-family: "Raleway-medium";
+    src: url(fontsp//Raleway-Medium.ttf)
+}
+@font-face {
+    font-family: "Raleway-bold";
+    src: url(fontsp//Raleway-Bold.ttf)
+}
+@font-face {
+    font-family: "Raleway-Semibold";
+    src: url(fontsp//Raleway-Semibold.ttf)
+}
+@font-face {
+    font-family: "Raleway-Black";
+    src: url(fontsp//Raleway-Black.ttf)
+}
+@font-face {
+    font-family: "Raleway-extrabold";
+    src: url(fontsp/Raleway-ExtraBold.ttf)
+}
+@font-face {
+    font-family: "Raleway-Italic";
+    src: url(fontsp//Raleway-Italic.ttf)
+}
+@font-face {
+    font-family: "Raleway-mediumitalic";
+    src: url(fontsp//Raleway-MediumItalic.ttf)
+}
+
+
+body{
+    background-color: rgb(235, 164, 33);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+
+table{
+    border: 3px solid black;
+    margin: auto;
+    table-layout:auto;
+    text-align: center;
+}
+
+th{
+    border: 3px solid black;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(173, 170, 170);
+    font-weight: bold;
+
+}
+tr{
+    border: 3px solid black;
+    
+}
+td{
+    border: 1px solid black; 
+    height: 10px;
+    padding: 5px ;    
+}
+.entries{
+    border: 3px solid black;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightgray;
+}
+.info h2{
+    text-align: center;
+    font-family: "Raleway-bold";
+    font-weight: bolder;
+    padding: auto;
+    
+
+}
+.info p{
+    text-align: center;
+    font-family: "Raleway-Semibold";
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+    font-size: 17px;
+
+}
+.info h1{
+    text-align: center;
+    font-family: "Raleway-Italic";
+    font-weight: bolder;
+}
+
+@keyframes changecolor {
+
+    from {color: black; }
+    to{color: whitesmoke; }
+    0%{color:black; font-size: 20px;}
+    50%{color:whitesmoke; font-size: 25px;}
+    100%{color:black; font-size:20px;}
+    
+    
+}
+#animate{
+    animation-name: changecolor;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+
+}
+.container{
+    padding-bottom: 10px;
+}
+.container input{
+    font-family: "Raleway-mediumitalic";
+}
+.formdiv{
+   margin-bottom: 10px;
+   padding-top:10px;
+   font-size: 70px;
+}
+ #phone{
+     display:inline;
+    padding-top: 10px;
+    
+    
+}
+#hovering:hover{
+    background-color:rgba(44, 41, 41, 0.795);
+    color:white;
+}
+
